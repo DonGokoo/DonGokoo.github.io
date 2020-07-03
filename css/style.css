@@ -130,7 +130,7 @@ body {
 }
 .outer {
   zoom: 1;
-  max-width: 1520px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -145,8 +145,8 @@ body {
 .inner {
   display: inline;
   float: left;
-  width: 98.66666666666667%;
-  margin: 0 0.666666666666667%;
+  width: 98.46153846153847%;
+  margin: 0 0.769230769230769%;
 }
 .left,
 .alignleft {
@@ -186,8 +186,8 @@ body {
   #main {
     display: inline;
     float: left;
-    width: 78.66666666666666%;
-    margin: 0 0.666666666666667%;
+    width: 75.38461538461539%;
+    margin: 0 0.769230769230769%;
   }
 }
 .article-date,
@@ -206,7 +206,7 @@ body {
 .article-inner,
 .archive-article-inner {
   background: #000;
-  border-radius: 15px;
+  border-radius: 0px;
 }
 .article-entry h1,
 .widget h1,
@@ -288,7 +288,8 @@ body {
 }
 .article-entry h6,
 .widget h6 {
-  font-size: 1em;
+  font-size: 0.8em;
+  color: #999;
 }
 .article-entry hr,
 .widget hr {
@@ -1441,8 +1442,8 @@ pre .javascript .function {
   #sidebar {
     display: inline;
     float: left;
-    width: 18.666666666666668%;
-    margin: 0 0.666666666666667%;
+    width: 21.53846153846154%;
+    margin: 0 0.769230769230769%;
   }
 }
 .widget-wrap {
