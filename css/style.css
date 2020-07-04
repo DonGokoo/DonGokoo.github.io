@@ -125,7 +125,7 @@ body,
 }
 body {
   background: #000;
-  font: 12px/1.6em "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 12px/1.5em "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -339,7 +339,7 @@ body {
 .article-entry dl,
 .widget dl {
   margin: 0 20px;
-  line-height: 1.6em;
+  line-height: 2em;
 }
 .article-entry ul ul,
 .widget ul ul,
@@ -617,7 +617,7 @@ body {
   font-size: 2em;
   font-weight: bold;
   color: #ddd;
-  line-height: 1.6em;
+  line-height: 1.5em;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
@@ -642,8 +642,8 @@ a.article-title:hover {
 }
 .article-entry p,
 .article-entry table {
-  line-height: 1.6em;
-  margin: 1.6em 0;
+  line-height: 1.5em;
+  margin: 1.5em 0;
 }
 .article-entry h1,
 .article-entry h2,
@@ -659,8 +659,8 @@ a.article-title:hover {
 .article-entry h4,
 .article-entry h5,
 .article-entry h6 {
-  line-height: 1.6em;
-  margin: 1.6em 0;
+  line-height: 1.5em;
+  margin: 1.5em 0;
 }
 .article-entry a {
   color: #ddd;
@@ -673,8 +673,8 @@ a.article-title:hover {
 .article-entry ul,
 .article-entry ol,
 .article-entry dl {
-  margin-top: 1.6em;
-  margin-bottom: 1.6em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 .article-entry img,
 .article-entry video {
@@ -702,14 +702,14 @@ a.article-title:hover {
 }
 .article-entry blockquote {
   font-family: "Droid Serif", Georgia, Serif;
-  margin: 1.6em 0;
+  margin: 1.5em 0;
   padding: 0 0.8em;
   border-left: 4px solid #ddd;
   color: #777;
 }
 .article-entry blockquote footer {
   font-size: 12px;
-  margin: 1.6em 0;
+  margin: 1.5em 0;
   font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .article-entry blockquote footer cite:before {
@@ -762,17 +762,16 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-more-link a:hover {
-  background: #ddd;
-  color: #fdc217;
+  background: #fdc217;
+  color: #000;
   text-decoration: none;
-  text-shadow: 0 1px #b1b1b1;
 }
 .article-footer {
   zoom: 1;
   font-size: 0.85em;
-  line-height: 1.6em;
+  line-height: 1.5em;
   border-top: 2px solid transparent;
-  padding-top: 1.6em;
+  padding-top: 1.5em;
   margin: 0 0px 0px;
 }
 .article-footer:before,
@@ -892,7 +891,7 @@ a.article-title:hover {
 }
 .article-nav-title {
   font-size: 0.85em;
-  line-height: 1.6em;
+  line-height: 1.5em;
   margin-top: 0.5em;
 }
 .article-share-box {
@@ -900,7 +899,8 @@ a.article-title:hover {
   display: none;
   background: #353535;
   border-radius: 5px;
-  margin-left: -145px;
+  margin-left: -250px;
+  margin-top: -75px;
   overflow: hidden;
   z-index: 1;
 }
@@ -913,7 +913,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 12px "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 15px;
   color: #ddd;
   outline: none;
@@ -1122,7 +1122,7 @@ a.article-title:hover {
   break-inside: avoid-column;
 }
 .archive-article-inner {
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 15px;
 }
 .archive-article-title {
@@ -1134,7 +1134,7 @@ a.article-title:hover {
   -o-transition: color 0.2s;
   -ms-transition: color 0.2s;
   transition: color 0.2s;
-  line-height: 1.6em;
+  line-height: 1.5em;
 }
 .archive-article-title:hover {
   color: #fdc217;
@@ -1143,7 +1143,7 @@ a.article-title:hover {
   margin-top: 1em;
 }
 .archive-article-date {
-  color: #999;
+  color: transparent;
   text-decoration: none;
   font-size: 0.85em;
   line-height: 1em;
@@ -1181,8 +1181,8 @@ a.article-title:hover {
   text-decoration: none;
 }
 #page-nav a:hover {
-  background: #999;
-  color: #fff;
+  background: #fdc217;
+  color: #fcd217;
 }
 #page-nav .prev {
   float: left;
@@ -1220,7 +1220,7 @@ a.article-title:hover {
   color: #fdc217;
 }
 #footer-info {
-  line-height: 1.6em;
+  line-height: 1.5em;
   font-size: 0.85em;
 }
 .article-entry pre,
@@ -1233,7 +1233,7 @@ a.article-title:hover {
   border-width: 1px 0;
   overflow: auto;
   color: #f8f8f2;
-  line-height: 19.200000000000003px;
+  line-height: 18px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -1294,7 +1294,7 @@ a.article-title:hover {
   padding-right: 20px;
 }
 .article-entry .highlight .line {
-  height: 19.200000000000003px;
+  height: 18px;
 }
 .article-entry .gist {
   margin: 0 0px;
@@ -1453,7 +1453,7 @@ pre .javascript .function {
   color: #777;
   text-shadow: 0 0px #fff;
   background: #181818;
-  border: 1px solid #7e1902;
+  border: 1px solid #303030;
   padding: 15px;
   border-radius: 5px;
 }
@@ -1478,9 +1478,9 @@ pre .javascript .function {
   list-style: disc;
 }
 .widget {
-  line-height: 1.6em;
+  line-height: 2em;
   word-wrap: break-word;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 .widget ul,
 .widget ol {
