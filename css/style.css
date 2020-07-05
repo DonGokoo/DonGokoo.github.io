@@ -804,10 +804,12 @@ a.article-title:hover {
   font-family: FontAwesome;
   padding-right: 8px;
 }
-cursor: pointer,
-float: right,
-margin-left: 20px,
-:before {
+.article-share-link {
+  cursor: pointer;
+  float: right;
+  margin-left: 20px;
+}
+.article-share-link:before {
   content: "\f064";
   font-family: FontAwesome;
   padding-right: 6px;
@@ -913,7 +915,7 @@ margin-left: 20px,
   box-sizing: border-box;
   font: 12px "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 15px;
-  color: #fdc217;
+  color: #999;
   outline: none;
   border: 1px solid transparent;
   border-radius: 3px 3px 0 0;
